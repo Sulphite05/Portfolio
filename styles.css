@@ -1,0 +1,14 @@
+.header {
+    /* position: fixed; */
+}
+
+.right-section {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.right-section p {
+    display: flex;
+    justify-content: flex-end;
+    padding: 4px;
+}
