@@ -42,38 +42,71 @@ body {
 .projects-section,
 .contact-section {
     background-color: black;
-    width: 100%;
-    height: 100%;
-    color: white;
+    width: 100vw;
+    height: 100vh;
+    color: rgb(240, 240, 240);
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    line-height: 1.0;
 }
 
 .welcome-section {
     background-color: pink;
-    color: white;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
-    flex-direction: column;
-    line-height: 1.0;
 }
 
 .welcome-section i {
     color: rgb(190, 49, 68);
     font-size: 20px;
+    font-weight: 300;
 }
 
 .projects-section {
     background-color: pink;
     /* position: absolute; */
     /* padding: 0px; */
-    width: 100%;
-    height: 100%;
-    color: white;
 }
 
 .contact-section {
-    color: white;
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
 
+.contact-section i {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+.contact-options {
+    display: flex;
+    margin-top: 100px;
+    gap: 10px;
+    
+}
+
+.contact {
+    display: flex;
+    padding: 0px 40px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.contact img {
+    padding-right: 8px;
+    width: 100%;
+        max-width: 50px;
+        height: 50px;
+        /* object-fit: cover; */
+        border-radius: 10px;
+}
+
+.contact p {
+    font-size: 20px;
+    font-weight: 300;
+    /* flex: 1fr; */
+}
+
+.contact:hover {
+    /* padding: 0px 60px; */
 }
